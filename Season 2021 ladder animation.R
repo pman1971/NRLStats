@@ -18,11 +18,13 @@ library(stringr)
 # Eases DateTime manipulation
 library(lubridate)
 
+library(hrbrthemes)
+library(gganimate)
 
 # Create a list for all rounds results
 
 # Number of rounds to analyse
-roundNoTotal= 24
+roundNoTotal= 25
 
 clubLadderList= list()
 
@@ -165,4 +167,4 @@ animacion2=
 
 animate(animacion2, width = 700, height = 432, fps = 25, duration = 20, rewind = FALSE)
 
-
+animate(animacion2, width = 700, height = 432, fps = 12, duration = 20, rewind = FALSE)
